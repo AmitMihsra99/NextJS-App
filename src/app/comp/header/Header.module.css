@@ -1,0 +1,103 @@
+/* styles/ResponsiveImage.module.css */
+
+.imageContainer {
+    position: relative;
+    max-width: 100%;
+    top: -14px;
+  }
+  
+  .responsiveImage {
+    height: 600px;
+    width: 100%;
+    border-radius: 8px;
+    
+    
+}
+
+
+  .overlay {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 25px;
+}
+  
+  .overlay{
+   position: absolute;
+   left: 50%;
+   top: 70%;  
+   color: rgba(237, 244, 244, 0.987);;   
+  }
+  .overlay h3 {
+    margin-bottom: 10px;
+    font-size:15px;
+  }
+  
+  .overlay p {
+    font-size:2rem;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+  }
+  .overlayContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* .overlayContent h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .overlayContent p {
+    font-size: 1em;
+  } */
+
+  @media (max-width: 772px) {
+    .overlay p {
+        font-size:1.05rem;
+        font-weight: bold;
+        font-family:Georgia, 'Times New Roman', Times, serif
+      } 
+      .overlay {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        padding: 25px;
+        margin: 10px;
+        border-radius: 25px;
+        background: rgba(77, 73, 73, 0.5); /* Adjust the darkness level by changing the alpha value (0.5 is 50% opacity) */  
+    }
+      .overlay{
+        position: absolute;
+        left: 50%;
+        top: 70%;  
+        color:rgb(242, 234, 234);    
+       }
+       .overlayContent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-80%, -50%);
+        text-align: center;
+       }
+  }
+
+@media (max-width: 746px){
+  .imageContainer {
+    width: 1200px;
+
+  }
+
+
+  }
+
+  

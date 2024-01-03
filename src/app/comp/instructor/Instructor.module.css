@@ -1,0 +1,65 @@
+/* styles/ResponsiveContainer.module.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 8px;
+    background-color: rgb(244, 244, 239);
+  }
+  
+  .section p{
+      font-size:1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      line-height: 1.2;
+      max-width: 800px;
+  } 
+  .section {
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px;
+  }
+  
+  
+  .imageAndParagraph {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circleImage {
+    border-radius: 50%;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: cover;
+    margin-right: 35px; /* Adjust spacing between image and paragraph */
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .socialLinks{
+    position: relative;
+    left:10%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .socialLinks a {
+    text-decoration: none;
+    color: hsl(194, 89%, 64%);
+    font-size: 25px;
+    margin: 0 30px;
+    
+  }
+
+  @media (max-width: 866px){
+    
+     
+    
+  
+  
+    }
+  

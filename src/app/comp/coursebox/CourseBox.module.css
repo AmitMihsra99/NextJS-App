@@ -1,0 +1,136 @@
+/* CourseBox.module.css */
+
+.course{
+    position:absolute;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    background-color: rgb(228, 228, 245);
+    color: black;
+    border-radius: 25px;
+    height: 400px;
+    top:35em;
+    left: 65em;
+    
+    
+  }
+  
+  styles.h3 {
+    margin: 0;
+  }
+   
+  styles.h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .smallhead{
+    font-weight: bold;
+
+  } 
+  .included {
+    display: flex;
+    align-items: center;
+  }
+  
+  .included p {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .icons{
+    
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+
+  }
+  
+  .btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 25px;
+    background-color:blueviolet;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    border: none;
+    cursor: pointer;
+     
+  }
+  .btn:hover{
+    background-color: rgb(238, 22, 216);
+    color: black;
+  }
+
+  @media (max-width:1404px) {
+    
+    .course{
+        position:absolute;
+        left: 55em;  
+      }
+   
+
+  }
+
+  @media (max-width:1240px) {
+    
+    .course{
+        position:absolute;
+        left: 55em; 
+ 
+      }
+   
+
+  }
+  @media (max-width:1214px) {
+    
+    .course{
+        position:absolute;
+        left: 44em;
+        
+      }
+   
+
+  }
+
+
+  
+
+  @media (max-width:1061px) {
+    
+    .course{
+        position:absolute;
+        left: 40em; 
+        height: 200px; 
+      }
+      .icons{
+    
+       display: none;
+    
+      }
+      .smallhead{
+        display:none;
+      }
+   
+
+  }
+
+  
+
+  @media(max-width:998px) {
+    
+       
+    .course{
+     display: none;
+    }
+
+
+      
+       
+  }

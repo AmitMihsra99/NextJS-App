@@ -1,0 +1,99 @@
+/* Testimonial.module.css */
+
+.slider {
+  position: relative;
+  overflow: hidden;  
+  /* Adjust the maximum width as needed */
+   height: 300px;
+  margin: 0 auto;
+  align-items: center;
+  min-width: 100vw;
+
+}
+
+.container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  
+}
+
+.data {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 35px;
+  text-align: center;
+  background-color: #eec9d8;
+  
+  border: 1px solid #f5b1b1;
+  border-radius: 10px; 
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+}
+.data img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+} 
+.text{
+   font-size: 1.05rem;
+  font-weight: bold;
+  text-align: center;
+  font-style:italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.icons {
+  /* position: absolute;
+  top:500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; */
+  width:fit-content;
+    display: flex;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:100px;
+    gap:50rem;
+    margin: auto;
+    top: 200px;
+  
+}
+
+.icon {
+  width:50px;
+  height: 50px;
+  border: 1px solid #999;
+  color: rgb(34, 35, 36);
+  border-radius: 25px;
+  display: felx;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
+@media (max-width: 927px){
+
+  .icons {
+    /* position: absolute;
+    top:500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; */
+    width:fit-content;
+      display: flex;
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:100px;
+      gap:20rem;
+      margin: auto;
+      top: 200px;
+    
+  }
+
+}

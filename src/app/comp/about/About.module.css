@@ -1,0 +1,109 @@
+/*1336 AboutSection.module.css */
+
+.aboutsection {
+    position: relative;
+    padding: 35px;
+    max-width: 600px;
+    margin: 0 auto;
+    left: -15%;
+    top: 12px;
+    align-items: center;
+     align-items: center;
+  }
+
+  .aboutcontent .h1{
+     font-size: larger;
+  }
+  
+  .aboutcontent {
+    margin-bottom: 20px;
+  }
+  
+  .aboutcontent p {
+    font-size:1.05rem;
+    font-weight:500;
+    font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 10px 0;
+  }
+   
+  .keysection {
+    margin-bottom: 30px;
+  }
+
+  .customlisttik {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .customlistitem {
+    position: relative;
+    padding-left: 25px; /* Adjust as needed */
+  }
+  
+  .customlistitem::before {
+  
+    content: '\2713'; /* Unicode character for a checkmark */
+    color: #baef0ae4; /* Set the color of the checkmark */
+    position: absolute;
+    left: 0;
+    font-size:x-large;
+  }
+
+  
+
+  .what-to-expect-content {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    line-height: 3em;
+    padding: 10px;
+    
+  }
+  .Kye-topies{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    line-height: 2em;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.keypoint{
+ color:black;
+ font-weight: bolder;    
+}
+  
+
+  
+  
+  
+  
+  
+  
+  .section  h2 {
+    margin-bottom: 10px;
+  }
+  
+  
+
+  @media (max-width:868px) {
+    .aboutsection {
+      position: relative;
+      padding: 35px;
+      max-width: 600px;
+      margin: 0 auto;
+      left: -8%;
+      top: 12px;
+      align-items: center;
+       align-items: center;
+    } 
+  }
+
+  @media (max-width:729px) {
+    .aboutsection {
+      
+      left: -4%;
+      top: 12px;
+      
+    } 
+  }
